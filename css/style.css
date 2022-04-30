@@ -1,0 +1,48 @@
+html, body, #container {
+	height: 100%;
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {
+	background-color: hsl(212, 45%, 89%);
+	width: 1440px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#caixa {
+	height: 440px;
+	width: 288px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+}
+
+#text {
+  	text-align: center;
+}
+
+h3 {
+	color: hsl(218, 44%, 22%);
+	font-size: 1.4em;
+	margin-top: 15px;
+	padding: 0 10px 0 10px;
+}
+
+p {
+	color: hsl(220, 15%, 55%);
+	font-size: 15px;
+	padding: 0 12px 0 12px;
+}
+
+img {
+	width: 260px;
+	margin: 15px 15px 0px 15px;
+	border-radius: 15px;
+	margin: 12px 14px 0 14px;
+}
